@@ -2,6 +2,8 @@ const fs = require('fs');
 
 const filename = process.argv[2];
 
+console.log('test');
+
 fs.readFile(filename,   { encoding : 'utf-8' } , (error, data) => {
     if( error ) {
         console.log(error);
