@@ -4,10 +4,9 @@ const addNumbersFromArray = (array) => {
     let acum = 0;
 
     array.forEach((item) => {
-        acum += item;
-        // if( typeof item === 'number' ) {
-        //     acum += item;
-        // }
+        if( typeof item === 'number' ) {
+            acum += item;
+        }
     });
 
     return acum;
