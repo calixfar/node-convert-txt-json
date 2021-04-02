@@ -13,4 +13,4 @@ jobs:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
         uses: pullreminders/slack-action@master
         with:
-          args: '{\"channel\":\"C01TASWLAF6\",\"text\":\"Pull request iniciado\"}'
+          args: '{\"channel\":\"C01TUGRFZPA\",\"text\":\"Pull request iniciado\"}'
