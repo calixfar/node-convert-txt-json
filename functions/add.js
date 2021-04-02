@@ -1,13 +1,12 @@
 const addNumbersFromArray = (array) => {
-    if( !array || !array.length ) return 'Ingrese un array';
+    // if( !array || !array.length ) return 'Ingrese un array';
 
     let acum = 0;
 
     array.forEach((item) => {
-        acum += item;
-        // if( typeof item === 'number' ) {
-        //     acum += item;
-        // }
+        if( typeof item === 'number' ) {
+            acum += item;
+        }
     });
 
     return acum;
